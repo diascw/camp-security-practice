@@ -5,7 +5,7 @@ Durante a aula sobre Segurança, ministrada pelo José Lucas, foi destacada algu
 
 ## 1. Falha de Segurança: Armazenamento de Senhas em Texto Puro
 ### Localização do Problema:
-a falha estava na definição do modelo de usuário. (`models/User.js`).
+Definição do modelo de usuário. (`models/User.js`).
 
 ### Descrição:
 a senha do usuário estava sendo armazenada em formato de string, sem criptografia.
